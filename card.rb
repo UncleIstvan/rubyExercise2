@@ -13,7 +13,6 @@ class Card
    case @value
      when 0
        'Joker'
-
      when 11
        "Jack of #{@suit}"
      when 12

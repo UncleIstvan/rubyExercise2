@@ -13,7 +13,7 @@ stepan = Player.new ({
                     })
 
 
-# creates and launches new GAME object
+# creates and launches new GAME object with two players
 game = Game.new ({
                    players: [ivan,stepan]
                })

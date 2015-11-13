@@ -10,6 +10,7 @@ class Deck
   # creates new unshuffled  deck, depending on number of card values and suits
   def crack_new_one (card_count_array, suits_array)
     @cards = []
+
     card_count_array.each {|value|  suits_array.each{|suit|
       new_card = Card.new ({
                               value: value,
